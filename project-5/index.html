@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form id="userForm">
+        <label for="name"><b>name :</b> </label>
+        <input type="text" id="name"><br><br>
+
+        <label for="age"><b>age :</b> </label>
+        <input type="number" id="age"><br><br>
+
+        <label for="email"><b>email :</b> </label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="gender"><b>gender :</b> </label>
+        <input type="radio" id="gender" name="vasu">male
+        <input type="radio" id="gender" name="vasu">female <br><br>
+
+        <input type="submit">
+    </form>
+
+    <h1>-------------- Enterd DATA ------------</h1>
+    <ul id="listData"></ul>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
